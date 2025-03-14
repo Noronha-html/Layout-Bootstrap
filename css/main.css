@@ -1,12 +1,73 @@
+*
+*::before
+*::after
+{
+    box-sizing: border-box;
+}
+
 .main
 {
     width: 100%;
     height: 500px;
 }
 
+.article
+{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+/* article top row */
+
+.article-top_row
+{
+    height: 45%;
+    justify-self: top;
+    margin-bottom: 2%;
+}
+
+.article_section1-title-wrapper
+{
+    width: 104.4%;
+    height: 10%;
+    padding-left: 5%;
+    padding-bottom: 6%;
+}
+
 .article_section1-title
 {
+    font-size: 2rem;
+}
+
+.article_section1-img
+{
     width: 100%;
-    height: 10%;
-    padding-left: 10%;
+    height: 80%;
+    margin-top: 10%;
+}
+
+.article_section1-title2
+{
+    margin-top: 3%;
+    margin-bottom: -1%;
+}
+
+.article_section1-button
+{
+    margin-bottom: 6%;
+}
+
+/* article bottom row */
+
+.article-bottom_row
+{
+    height: 53%;
+}
+
+.footer
+{
+    height: 10vh;
+    display: block;
+    margin-top: 8.8%;
 }
