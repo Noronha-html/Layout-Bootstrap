@@ -27,7 +27,7 @@
 {
     height: 45%;
     justify-self: top;
-    margin-bottom: 2%;
+    margin-bottom: 1.7%;
 }
 
 .article_section1-title-wrapper
@@ -133,11 +133,7 @@
     margin-bottom: -60%;
 }
 
-/* footer */
-
-.footer
+footer
 {
-    height: 10vh;
-    display: block;
-    margin-top: 40%;
+    margin-top: 10.5%;
 }
