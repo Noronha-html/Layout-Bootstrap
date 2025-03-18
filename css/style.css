@@ -1,0 +1,33 @@
+*
+*::before
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.white-bg
+{
+    background-color: white;
+}
+
+.gray-bg
+{
+    background-color: gray;
+}
+
+.black-bg
+{
+    background-color: rgb(31, 31, 31);
+}
+
+.white-letter
+{
+    color: white;
+}
+
+.black-letter
+{
+    color: black;
+}

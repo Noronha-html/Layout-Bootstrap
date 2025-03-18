@@ -14,10 +14,12 @@
     display: flex;
     flex-flow: column nowrap;
     gap: 3%;
+    border-left: 10px solid white;
 }
 
 .input-row
 {
+    margin-top: 5%;
     height: 6.8%;
 }
 
@@ -30,24 +32,25 @@
 
 .input
 {
-    width: 80%;
+    width: 94%;
 }
 
 .main-content
 {
+    margin-inline: 3%;
     height: 40%;
+    display: flex;
+    justify-content: center;
 }
 
 .title-row
 {
     width: 100%;
     height: 10%;
-    margin-left: 0.00001%;
 }
 
-.title-wrap
+.title-wrapper
 {
-    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,16 +63,30 @@
 
 .list-row
 {
+    width: 100%;
     margin-top: 7%;
+}
+
+.list-wrapper
+{
+    padding-top: 5%;
 }
 
 .list
 {
-    list-style-type: none;
+    list-style-type: disc;
+}
+
+.images-section
+{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20%;
 }
 
 .img-wrapper
 {
+    margin-top: 3.5%;
     margin-inline: 3%;
 }
 
